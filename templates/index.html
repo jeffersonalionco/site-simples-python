@@ -2,15 +2,18 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Pagina Inicial</title>
-</head>
+    <title>Pagina Inicial</title> <!-- Titulo da sua Pagina -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> <!-- Aqui Vinculamos nosso css static no html lembrando que a pasta
+    deve ser static/css/css.css -->
+
 <body>
-    <h1>Pagina Inicial</h1>
+    <h1>Pagina Inicial</h1> <!-- Titulo da sua Pagina -->
 
 <nav>
-    <li>Home</li>
-    <li>Sobre</li>
-    <li>Contato</li>
+    <li href="#home">Home</li>
+    <li href="#sobre">Sobre</li>
+    <li href="contato">Contato</li>
 
 </nav>
 
