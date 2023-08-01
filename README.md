@@ -17,7 +17,7 @@ BOA SORTE, E BOM APRENDIZADO.
 * [Como Instalar](#como-instalar)
 * [Autores](#autores)
 
-# 🛠 Dependecias Obrigadoria: 
+# 🛠 Dependecias Obrigtoria: 
 
 - Python - <a> https://www.python.org/downloads/ </a>
 - FLask - <a> https://flask.palletsprojects.com/en/2.3.x/ </a>
