@@ -9,9 +9,15 @@ git add . - Para Adicionar, todos os arquivos que ainda falta commitar na proxim
 git commit -m "nome-do-commit" - Após adicionar os arquivos modificados,  para a proxima versão, ai é só fazer o commit.
 git push  --set-upstream origin master - Define qual branch será usada nos push
 git push - sobe os novos commits feitos para o repositorio da nuvem.
+git reflog - Mostra o historico de versões.
 
 git remote add origin link-do-seu-repositorio.git - Adiciona o repositorio ao projeto.
 git remote set-url origin link-da-url - Mudar a url do projeto.
+
+
+Comandos Avançados --
+
+git reset --hard numero-da-versao -  Volta a versão anterior ou a especificada pelo codigo, encontrado, no comando reflog
 
 
 
