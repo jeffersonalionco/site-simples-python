@@ -15,16 +15,17 @@ git remote add origin link-do-seu-repositorio.git - Adiciona o repositorio ao pr
 git remote set-url origin link-da-url - Mudar a url do projeto.
 
 
-Comandos Avançados --
+Comandos Avançados ------------------------------------------------------------
 
 git reset --hard numero-da-versao -  Volta a versão anterior ou a especificada pelo codigo, encontrado, no comando reflog
 
 git branch - Mostra as branch disponiveis no seu projeto.
 git branch nome-da-nova-branch - Cria uma nova branch para seu codigo.
+git branch -b nova-branch branch-master - Cria uma nova branch com base na branch principal.
 git checkout nome-da-branch - para mudar de branch e trabalhar com os commits e alterações
 
 
-Unir branch a uma principal - passo a passo
+Unir branch a uma principal - passo a passo ----------------------------------
 
 entrar na branch principal, e digitar
 git pull - Para puxar todas as atualizações do repositorio online.
@@ -32,4 +33,6 @@ git merge nome-da-branch - O nome da branch é aquela que você quer unir na bra
 git push para subir o codigo para o repositorio.
 
 
+Arquivo GIT IGNORE ------------------------------------------------------------
 
+touch .gitignore - comando para criar o arquivo git ignore, aqui você informa todos os arquivos que não serão adicionado ao seu projeto
