@@ -1,3 +1,31 @@
 body {
-background-color: #E6E6FA;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #ffcc00;
+}s

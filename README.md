@@ -1,6 +1,6 @@
 # <h1 align="center"> Site Simples em Python com Flask </h1>
 
- **Introução**
+ **Introdução**
     Este é um projeto simples para iniciantes do python, um codigo para você ler, baixar, alterar e aprender o maximo que que conseguir. Nesse projeto não teremos um site completo com javascript, Mysql ou bootstrap. Mais sim um pacote simples para facilitar o inicio do aprendizado de você iniciante.
 
 E não se esqueça de nunca desistir, ser programador e ótimo, basta insistir nos seus objetivos.
