@@ -9,11 +9,23 @@ Leia as linhas abaixo onde te mostro quais são as dependecias para instalar a s
 
 BOA SORTE, E BOM APRENDIZADO.
 
-# 🛠️ Dependecias Obrigadoria: 
-    - Python - 3.11 adiante
-    - FLask - Framework
-    - git - Para clonar o repositorio
+# Indice
+* [Introdução](#h1-aligncenter-site-simples-em-python-com-flask-h1)
+* [Dependencias](#-dependecias-obrigadoria-)
+* [Como Instalar](#como-instalar)
+* [Autores](#autores)
+
+# 🛠 Dependecias Obrigadoria: 
+
+- Python - <a> https://www.python.org/downloads/ </a>
+- FLask - <a> https://flask.palletsprojects.com/en/2.3.x/ </a>
+    <br> Para instalar o flask pode ser via terminal, veja em [Instalação](#como-instalar)
+- git - <a> https://git-scm.com/ </a>
     
+s
+# Como Instalar
+
+**Após ter instalado, todas as dependencias siga os passo a passso abaixo**
 
 
 # Autores
