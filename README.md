@@ -21,11 +21,24 @@ BOA SORTE, E BOM APRENDIZADO.
 - FLask - <a> https://flask.palletsprojects.com/en/2.3.x/ </a>
     <br> Para instalar o flask pode ser via terminal, veja em [Instalação](#como-instalar)
 - git - <a> https://git-scm.com/ </a>
-    
-s
+
+
 # Como Instalar
 
 **Após ter instalado, todas as dependencias siga os passo a passso abaixo**
+
+* no seu terminal clone o repositorio na pasta que deseja:  ```git clone https://github.com/jeffersonalionco/site-simples-python.git```
+* Após baixar o repositorio entre na pasta: `cd site-simples-python`
+* agora a variavel env: `python -m venv venv`
+* agora instalar o flask: `pip install flask`
+
+**- agora só executar o flask:** `flask run`
+
+Se você fizer tudo certo, ira ficar igual a imagem abaixo
+![Execução do flask](./tutorial/flask_run.png) 
+Agora so entrar na Url (http://127.0.0.1:5000 )
+
+
 
 
 # Autores
