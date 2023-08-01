@@ -1,2 +1,18 @@
 Primeiros comandos para subir o repositorio, e modificar ele atraves do git
 
+git config --global user.name ""
+git config --global user.email ""
+
+git status - Para ver quais arquivos estão no controle de versões, quais commit foi feito emuito mais.
+git add "nome-do-arquivo" - Adicionar arquivo no controle de versões, para depois fazer o commit 
+git add . - Para Adicionar, todos os arquivos que ainda falta commitar na proxima versão.
+git commit -m "nome-do-commit" - Após adicionar os arquivos modificados,  para a proxima versão, ai é só fazer o commit.
+git push  --set-upstream origin master - Define qual branch será usada nos push
+git push - sobe os novos commits feitos para o repositorio da nuvem.
+
+git remote add origin link-do-seu-repositorio.git - Adiciona o repositorio ao projeto.
+git remote set-url origin link-da-url - Mudar a url do projeto.
+
+
+
+
