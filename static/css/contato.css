@@ -43,10 +43,22 @@ header h1 {
 .content {
     padding: 20px;
     border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .content h2 {
     color: #333;
+}
+
+.contact-info {
+    flex-basis: 40%;
+    text-align: left;
+}
+
+.contact-form {
+    flex-basis: 50%;
 }
 
 form {
@@ -73,6 +85,7 @@ button {
     border: none;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
