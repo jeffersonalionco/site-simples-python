@@ -36,3 +36,12 @@ git push para subir o codigo para o repositorio.
 Arquivo GIT IGNORE ------------------------------------------------------------
 
 touch .gitignore - comando para criar o arquivo git ignore, aqui você informa todos os arquivos que não serão adicionado ao seu projeto
+
+
+
+-------------------------------------------------
+
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
